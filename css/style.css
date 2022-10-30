@@ -502,7 +502,7 @@ body::-webkit-scrollbar-thumb:hover {
   position: absolute;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url("/imgs/vision/_gradient.png");
+  background-image: url("../imgs/vision/gradient.png");
 }
 .vision__grad-2 {
   width: 100%;
@@ -510,7 +510,7 @@ body::-webkit-scrollbar-thumb:hover {
   position: absolute;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url("/imgs/vision/_gradient2.png");
+  background-image: url("../imgs/vision/gradient2.png");
 }
 .vision__list {
   position: absolute;
