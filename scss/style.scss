@@ -307,7 +307,7 @@ body {
         position: absolute;
         background-size: cover;
         background-repeat: no-repeat;
-        background-image: url('../imgs/vision/_gradient.png');
+        background-image: url('../imgs/vision/gradient.png');
     }
 
     &__grad-2 {
@@ -316,7 +316,7 @@ body {
         position: absolute;
         background-size: cover;
         background-repeat: no-repeat;
-        background-image: url('../imgs/vision/_gradient2.png');
+        background-image: url('../imgs/vision/gradient2.png');
     }
     
 
@@ -338,11 +338,11 @@ body {
     // .vision_plane
 
     &__plane {
-        background-image: url('../imgs/vision/_plane_1.jpg');
+        background-image: url('../imgs/vision/plane_1.jpg');
     }
 
     &__volume {
-        background-image: url('../imgs/vision/_plane_2.jpg');
+        background-image: url('../imgs/vision/plane_2.jpg');
         background-position: right;
         & .vision__list {
             left: 5%;
@@ -350,7 +350,7 @@ body {
     }
 
     &__jet {
-        background-image: url('../imgs/vision/_plane_3.jpg');
+        background-image: url('../imgs/vision/plane_3.jpg');
     }
 }
 
@@ -620,7 +620,7 @@ body {
         position: absolute;
         left: 0;
         top: 0;
-        background-image: url('../imgs/footer/_bg.jpg');
+        background-image: url('../imgs/footer/bg.jpg');
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
