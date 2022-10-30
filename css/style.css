@@ -523,17 +523,17 @@ body::-webkit-scrollbar-thumb:hover {
   font-size: calc(13px + 2 * ((100vw - 320px) / 1300));
 }
 .vision__plane {
-  background-image: url("../imgs/vision/_plane_1.jpg");
+  background-image: url("../imgs/vision/plane_1.jpg");
 }
 .vision__volume {
-  background-image: url("../imgs/vision/_plane_2.jpg");
+  background-image: url("../imgs/vision/plane_2.jpg");
   background-position: right;
 }
 .vision__volume .vision__list {
   left: 5%;
 }
 .vision__jet {
-  background-image: url("../imgs/vision/_plane_3.jpg");
+  background-image: url("../imgs/vision/plane_3.jpg");
 }
 
 .tier__list {
@@ -771,7 +771,7 @@ body::-webkit-scrollbar-thumb:hover {
   position: absolute;
   left: 0;
   top: 0;
-  background-image: url("../imgs/footer/_bg.jpg");
+  background-image: url("../imgs/footer/bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
