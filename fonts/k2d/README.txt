@@ -1,1 +1,0 @@
-K2D is a Thai and Latin family which has a modern appearance but features Thai's traditional looped letterforms.
