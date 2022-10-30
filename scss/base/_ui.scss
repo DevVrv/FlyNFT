@@ -1,0 +1,44 @@
+// * buttons
+.btn-primary {
+    @include gradient_primary;
+    border: 0 !important;
+    box-shadow: 0 0 0px $blue;
+    transition: box-shadow 0.3s 0s ease !important;
+    border-radius: 5px;
+    &:hover {
+        box-shadow: 0 0 5px $blue;
+    }
+}
+
+// * links
+.nav-link {
+    color: $white !important;
+    transition: color 0.3s 0s linear !important;
+    &:hover {
+        color: $blue !important;
+    }
+}
+.link {
+    text-decoration: none;
+    transition: color 0.3s ease;
+    &:hover {
+        color: $blue;
+    }
+}
+
+// * form-control
+.form-control {
+    box-shadow: 0 0 0 !important;
+    outline: none !important;
+    transition: border-color 0.3s ease;
+    &::placeholder {
+        opacity: 0.9;
+        transition: opacity 0.3s ease;
+    }
+    &:focus {
+        border-color: $blue;
+        &::placeholder {
+            opacity: 0.5;
+        }
+    }
+}
