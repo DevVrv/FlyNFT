@@ -158,14 +158,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn-primary {
-  background: -o-radial-gradient(10.12% -38.03%, 215.09% 1182.53%, #1A1E21 0%, #295662 61.98%, #1A1E21 100%), -o-radial-gradient(12% 50%, 133.6% 1304.69%, #AAC7CE 0%, #385E9E 94.79%);
   background: radial-gradient(215.09% 1182.53% at 10.12% -38.03%, #1A1E21 0%, #295662 61.98%, #1A1E21 100%), radial-gradient(133.6% 1304.69% at 12% 50%, #AAC7CE 0%, #385E9E 94.79%);
   border: 0 !important;
   -webkit-box-shadow: 0 0 0px #64AEBE;
           box-shadow: 0 0 0px #64AEBE;
   -webkit-transition: -webkit-box-shadow 0.3s 0s ease !important;
   transition: -webkit-box-shadow 0.3s 0s ease !important;
-  -o-transition: box-shadow 0.3s 0s ease !important;
   transition: box-shadow 0.3s 0s ease !important;
   transition: box-shadow 0.3s 0s ease, -webkit-box-shadow 0.3s 0s ease !important;
   border-radius: 5px;
@@ -178,7 +176,6 @@ h1, h2, h3, h4, h5, h6 {
 .nav-link {
   color: #F2F2F2 !important;
   -webkit-transition: color 0.3s 0s linear !important;
-  -o-transition: color 0.3s 0s linear !important;
   transition: color 0.3s 0s linear !important;
 }
 .nav-link:hover {
@@ -188,7 +185,6 @@ h1, h2, h3, h4, h5, h6 {
 .link {
   text-decoration: none;
   -webkit-transition: color 0.3s ease;
-  -o-transition: color 0.3s ease;
   transition: color 0.3s ease;
 }
 .link:hover {
@@ -200,7 +196,6 @@ h1, h2, h3, h4, h5, h6 {
           box-shadow: 0 0 0 !important;
   outline: none !important;
   -webkit-transition: border-color 0.3s ease;
-  -o-transition: border-color 0.3s ease;
   transition: border-color 0.3s ease;
 }
 .form-control::-webkit-input-placeholder {
@@ -226,7 +221,6 @@ h1, h2, h3, h4, h5, h6 {
 .form-control::placeholder {
   opacity: 0.9;
   -webkit-transition: opacity 0.3s ease;
-  -o-transition: opacity 0.3s ease;
   transition: opacity 0.3s ease;
 }
 .form-control:focus {
@@ -461,7 +455,6 @@ body::-webkit-scrollbar-thumb:hover {
   background-color: #262C30;
 }
 .cards__item {
-  background: -o-radial-gradient(138.34% -54.3%, 310.37% 226.64%, #1D2B30 11.27%, #285460 46.68%, #1B2226 100%);
   background: radial-gradient(310.37% 226.64% at 138.34% -54.3%, #1D2B30 11.27%, #285460 46.68%, #1B2226 100%);
   color: #F2F2F2;
   width: 350px;
@@ -875,6 +868,7 @@ body::-webkit-scrollbar-thumb:hover {
   }
   .timeline__item {
     width: 86%;
+    margin: 25px 0 !important;
   }
   .timeline__item-date {
     width: 20%;
@@ -956,6 +950,9 @@ body::-webkit-scrollbar-thumb:hover {
     line-height: 22px;
     margin-top: 20px !important;
   }
+  .vision__item {
+    background-size: cover !important;
+  }
 }
 @media (max-width: 485px) {
   .says__card {
@@ -991,5 +988,66 @@ body::-webkit-scrollbar-thumb:hover {
   }
   .says__footer {
     margin-top: 50px !important;
+  }
+  .footer__one, .footer__two, .footer__three {
+    padding: 20px !important;
+    margin: 20px 0 !important;
+  }
+  .footer__one {
+    margin-top: 0 !important;
+    padding-top: 10px !important;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+    -webkit-box-align: center !important;
+        -ms-flex-align: center !important;
+            align-items: center !important;
+    width: 100%;
+  }
+  .footer__one form {
+    width: 80%;
+    text-align: center !important;
+  }
+  .footer .celar__container {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: reverse !important;
+        -ms-flex-direction: column-reverse !important;
+            flex-direction: column-reverse !important;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .footer .celar__list {
+    width: 100% !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+    -webkit-box-align: center !important;
+        -ms-flex-align: center !important;
+            align-items: center !important;
+  }
+  .footer .celar h6 {
+    margin-top: 20px !important;
+    width: 100% !important;
+    -webkit-box-align: center !important;
+        -ms-flex-align: center !important;
+            align-items: center !important;
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    color: #a4a4a4 !important;
   }
 }
