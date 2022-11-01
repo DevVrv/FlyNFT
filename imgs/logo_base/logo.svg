@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_Слой_1" data-name="Слой 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 389.02 245.62">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#_Безымянный_градиент_487-3);
+      }
+
+      .cls-2 {
+        fill: url(#_Безымянный_градиент_487-2);
+      }
+
+      .cls-3 {
+        fill: url(#_Безымянный_градиент_487);
+      }
+
+      .cls-4 {
+        font-family: MicrosoftJhengHeiUILight, 'Microsoft JhengHei UI';
+        font-size: 72px;
+      }
+    </style>
+    <linearGradient id="_Безымянный_градиент_487" data-name="Безымянный градиент 487" x1="261.07" y1="208.97" x2="296.22" y2="148.11" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#64aebe"/>
+      <stop offset=".58" stop-color="#000" stop-opacity=".7"/>
+      <stop offset=".95" stop-color="#1a1e21"/>
+    </linearGradient>
+    <linearGradient id="_Безымянный_градиент_487-2" data-name="Безымянный градиент 487" x1="305.63" y1="202.79" x2="337.77" y2="147.12" xlink:href="#_Безымянный_градиент_487"/>
+    <linearGradient id="_Безымянный_градиент_487-3" data-name="Безымянный градиент 487" x1="348.38" y1="197.64" x2="379.07" y2="144.49" xlink:href="#_Безымянный_градиент_487"/>
+  </defs>
+  <text class="cls-4" transform="translate(159.91 207.76)"><tspan x="0" y="0">Fly </tspan></text>
+  <g>
+    <path class="cls-3" d="M257.39,206.85v-56.62h7.98l18.14,28.64c4.2,6.64,7.48,12.6,10.16,18.4l.17-.08c-.67-7.56-.84-14.45-.84-23.27v-23.69h6.89v56.62h-7.39l-17.98-28.73c-3.95-6.3-7.73-12.77-10.58-18.9l-.25,.08c.42,7.14,.59,13.94,.59,23.35v24.19h-6.89Z"/>
+    <path class="cls-2" d="M312.66,150.23h30.49v6.13h-23.18v18.82h21.42v6.05h-21.42v25.62h-7.31v-56.62Z"/>
+    <path class="cls-1" d="M364.32,156.45h-17.22v-6.22h41.92v6.22h-17.3v50.4h-7.39v-50.4Z"/>
+  </g>
+  <image width="994" height="702" transform="translate(27.51) rotate(7.58) scale(.3)" xlink:href="jet_1.png"/>
+</svg>

@@ -454,10 +454,17 @@ body::-webkit-scrollbar-thumb:hover {
 .cards {
   background-color: #262C30;
 }
+.cards__items {
+  margin-left: 0 !important;
+}
 .cards__item {
   background: radial-gradient(310.37% 226.64% at 138.34% -54.3%, #1D2B30 11.27%, #285460 46.68%, #1B2226 100%);
   color: #F2F2F2;
   width: 350px;
+  height: 400px;
+  min-height: -webkit-fit-content !important;
+  min-height: -moz-fit-content !important;
+  min-height: fit-content !important;
   -webkit-box-shadow: 0px 0px 11px rgba(0, 0, 0, 0.33);
           box-shadow: 0px 0px 11px rgba(0, 0, 0, 0.33);
   border-radius: 11px;
@@ -592,6 +599,11 @@ body::-webkit-scrollbar-thumb:hover {
   position: absolute;
   top: -25%;
   z-index: 2;
+  border-radius: 9px;
+  overflow: hidden;
+}
+.investors__img img {
+  border-radius: 9px;
 }
 .investors__footer {
   position: relative;
@@ -679,9 +691,11 @@ body::-webkit-scrollbar-thumb:hover {
       -ms-flex-pack: center;
           justify-content: center;
   border-radius: 9px;
+  overflow: hidden;
 }
 .says__img img {
   width: 100%;
+  border-radius: 9px;
 }
 .says__card-text {
   -webkit-box-flex: 1;

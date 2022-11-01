@@ -229,20 +229,23 @@ body {
     // &__container {
     // }
 
-    // // .cards__items
+    // .cards__items
 
-    // &__items {
-    // }
+    &__items {
+        margin-left: 0 !important;
+    }
 
-    // // .cards__item
+    // .cards__item
 
     &__item {
         @include gradient_secondary;
         color: $white;
         width: 350px;
+        height: 400px;
+        min-height: fit-content !important;
         box-shadow: 0px 0px 11px rgba(0, 0, 0, 0.33);
         border-radius: 11px;
-
+        
         & p {
             font-size: 15px;
             line-height: 22px;
@@ -462,6 +465,11 @@ body {
         position: absolute;
         top: -25%;
         z-index: 2;
+        border-radius: 9px;
+        overflow: hidden;
+        & img {
+            border-radius: 9px;
+        }
     }
 
     // .investors__footer
@@ -538,9 +546,11 @@ body {
         align-items: center;
         justify-content: center;
         border-radius: 9px;
+        overflow: hidden;
 
         & img {
             width: 100%;
+            border-radius: 9px;
         }
     }
 
